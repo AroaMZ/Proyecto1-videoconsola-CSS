@@ -1,0 +1,179 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 100vh;
+}
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+.centro {
+    width: 24rem;
+    height: 20rem;
+    background-color: #212121;
+    border-bottom-right-radius: 100px / 200px;
+    position: absolute;
+}
+.circulo-sup {
+    background-color: #fff;
+    width: 24rem;
+    height: 10rem;
+    border-radius: 100%;
+    margin-top: -140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.circulo-inf {
+    background-color: #fff;
+    width: 24rem;
+    height: 10rem;
+    border-radius: 80%;
+    margin-top: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.L1 {
+    background-color: gray;
+    width: 6rem;
+    height: 1.5rem;
+    margin-top: -15px;
+    margin-left: 1rem;
+    border-radius: 20% 60% 75% 90%;
+    rotate: 190deg;
+    position: absolute;
+}
+.R1 {
+    background-color: gray;
+    width: 6rem;
+    height: 1.5rem;
+    margin-top: -15px;
+    margin-left: 270px;
+    border-radius: 20% 60% 75% 90%;
+    rotate: 165deg;
+    position: absolute;
+    background-color: gray;
+}
+.contenedor1 {
+    height: 30rem;
+    width: 40rem;
+    display: flex;
+    justify-content: center;
+}
+.start {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 100%;
+    border: .4rem solid #000;
+    background-color: #212121;
+    position: absolute;
+    margin-top: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenedor2 {
+    height: 30rem;
+    width: 40rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    position: relative;
+}
+
+.asa-izq {
+    width: 15rem;
+    height: 26rem;
+    background: #212121;
+    border-radius: 35% 65% 41% 59% / 25% 94% 6% 90%;
+    transform: scaleX(-1);
+    position: relative;
+    rotate: 10deg;
+}
+.stick-izq {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 100%;
+    border: .5rem solid #000;
+    position: relative;
+    margin-top: 2rem;
+    margin-left: 3rem;
+}
+.cruceta {
+    width: 6.5rem;
+    height: 6.5rem;
+    border-radius: 100%;
+    border: .5rem outset black;
+    background-color: rgba(0, 0, 0, 0.384);
+    background-size: 16px 16px;
+    margin-left: -3rem;
+    margin-top: -1rem;
+}
+.asa-dcha {
+    width: 15rem;
+    height: 26rem;
+    background: #212121;
+    border-radius: 35% 65% 41% 59% / 25% 94% 6% 90%;
+    position: relative;
+    rotate: -10deg;
+}
+.botones-vertical {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 7rem;
+    width: 10rem;
+    margin-top: 3rem;
+    margin-left: 1rem;
+    position: absolute;
+}
+.yellow {
+    width: 2rem;
+    height: 2rem;
+    background-color: yellow;
+    border-radius: 100%;
+}
+.green {
+    width: 2rem;
+    height: 2rem;
+    background-color: green;
+    border-radius: 100%;
+}
+.botones-horizontal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 2.5rem;
+    margin-top: 3rem;
+    height: 7rem;
+    width: 7rem;
+    position: relative;
+}
+.red {
+    width: 2rem;
+    height: 2rem;
+    background-color: red;
+    border-radius: 100%;
+}
+.blue {
+    width: 2rem;
+    height: 2rem;
+    background-color: blue;
+    border-radius: 100%;
+}
+.stick-dcha {
+    width: 5.5rem;
+    height: 5.5rem;
+    border-radius: 100%;
+    border: .5rem solid black;
+    background-color: rgba(0, 0, 0, 0.398);
+    margin-left: -2rem;
+    margin-top: -2rem;
+}
+
