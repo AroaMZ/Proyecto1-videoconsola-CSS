@@ -86,21 +86,16 @@ body {
     border-radius: 100%;
     background-color: #212121;
     position: absolute;
-    margin-top: 8rem;
+    margin-top: -12rem;
+    margin-left: 1rem;
+    border: .3rem solid red;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: .2rem solid green;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 0 0 5px #4f9;
+    background-image: url("xbox.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-
-.start svg {
-    color: #000;
-}
-
 .contenedor2 {
     height: 30rem;
     width: 40rem;
